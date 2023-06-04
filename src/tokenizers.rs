@@ -1,1 +1,1 @@
-pub mod chartokenizer;
+pub mod latin1;

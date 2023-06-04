@@ -1,8 +1,9 @@
+/// A latin-1 tokenizer
 use std::cmp::Ordering;
 use encoding::{Encoding, EncoderTrap};
 use encoding::all::ISO_8859_1;
 
-
+/// Converts a string slice input into a vector of u8 integers
 pub fn encode(input: &str, vector_size: usize) -> Vec<u8> {
     let encoded = ISO_8859_1
     .encode(input, EncoderTrap::Strict)

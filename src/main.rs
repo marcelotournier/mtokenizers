@@ -1,5 +1,5 @@
 mod tokenizers;
-use tokenizers::chartokenizer::encode;
+use tokenizers::latin1::encode;
 use std::env::args;
 
 
