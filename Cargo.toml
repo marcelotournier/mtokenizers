@@ -1,0 +1,7 @@
+[package]
+name = "gptrust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+encoding = "0.2.33"

@@ -1,0 +1,8 @@
+# rust compiler stuff
+/target
+
+# mac crap
+.DS_Store
+
+# vscode
+.vscode
