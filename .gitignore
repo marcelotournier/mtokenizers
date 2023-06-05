@@ -6,3 +6,7 @@
 
 # vscode
 .vscode
+
+# python
+.nox
+__pycache__/
